@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+}
+header {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.login-box label, .login-box input {
+    display: block;
+    margin: 5px 0px;
+}
+
+.login-box {
+    border: solid black 1px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+.login-box input[type='submit'] {
+    background-color: green;
+    display: block;
+    text-align: center;
+}
